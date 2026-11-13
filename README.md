@@ -2,10 +2,9 @@
 Deterministic C++20 Lock-Free MPMC Queue &amp; Cache-Line Optimization Lab (False Sharing &amp; Memory Ordering Case Study)
 # C++20 Lock-Free MPMC Queue & Cache-Line Optimization Lab
 
-[![Sanitizer CI](https://shields.io)]()
-[![C++ Standard](https://shields.io)]()
-[![Compiler Flags](https://shields.io)]()
-[![Platform](https://shields.io)]()
+`C++20` • `Lock-Free MPMC` • `Zero-Warning (-Wall -Wextra -Werror)` • `ASan / TSan / UBSan Verified` • `Linux x86_64 & ARM64`
+
+
 
 A deterministic low-latency systems engineering case study demonstrating how eliminating **16-Byte False Sharing** and enforcing strict **C++20 Memory Ordering** resolves intermittent `SIGSEGV` crashes and reduces **p99 tail latency by 84x**.
 
