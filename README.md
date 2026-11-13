@@ -9,7 +9,8 @@ Deterministic C++20 Lock-Free MPMC Queue &amp; Cache-Line Optimization Lab (Fals
 
 A deterministic low-latency systems engineering case study demonstrating how eliminating **16-Byte False Sharing** and enforcing strict **C++20 Memory Ordering** resolves intermittent `SIGSEGV` crashes and reduces **p99 tail latency by 84x**.
 
-![Case Study Summary](docs/images/case_study_hero.png)
+![Case Study Summary](docs/images/IMG_0950.jpeg)
+
 
 ---
 
